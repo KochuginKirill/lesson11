@@ -1,6 +1,6 @@
 package ru.gb.timesheet.service;
 
-import org.slf4j.event.Level;
+//import org.slf4j.event.Level;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.gb.timesheet.aspect.Timer;
@@ -15,7 +15,7 @@ import java.util.Objects;
 import java.util.Optional;
 
 @Service
-@Timer(level = Level.TRACE)
+//@Timer(level = Level.TRACE)
 public class TimesheetService {
 
   private final TimesheetRepository timesheetRepository;

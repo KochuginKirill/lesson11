@@ -1,6 +1,6 @@
 package ru.gb.timesheet.aspect;
 
-import org.slf4j.event.Level;
+//import org.slf4j.event.Level;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -13,6 +13,6 @@ public @interface Timer {
 
   boolean enabled() default true;
 
-  Level level() default Level.DEBUG;
+//  Level level() default Level.DEBUG;
 
 }
